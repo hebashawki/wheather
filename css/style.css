@@ -1,0 +1,139 @@
+body{
+    --main-color : rgb(30, 32, 43);
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}
+*{
+    box-sizing: content-box;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    zoom: 1;
+}
+
+/*  S T A R T                  N A V B A R            S E C T I O N */ 
+.navbar{
+    background-color: var(--main-color);
+}
+.nav-link{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+.btn.n{
+    border: 0;
+}
+
+.btn.n:hover{
+background-color: transparent;
+border: 1px solid ;
+
+}
+.btn .active{
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.navbar-brand:hover{
+color: white;
+}
+/* E N D                      N A V B A R            S E C T I O N */
+.navbar{
+    
+}
+
+#hero{
+    background-image: url(../imgs/overlay-bg.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+height: 350px;
+width: 100;
+    
+}
+.layer{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.layer input{
+    background: #1e202b;
+}
+
+.form-control::placeholder{
+    color: grey;
+    opacity: 1;
+}
+#mybutton::placeholder{
+    color: red;
+    opacity: 1;
+}
+
+.input-container{
+    position: relative;
+}
+
+#myinput{
+    padding-right: 40px;
+    padding: 25px;
+}
+#mybutton{
+    position: absolute;
+    right: 70px;
+    top: 65px;
+    padding;
+}
+.card{
+    color:#bfc1c8;
+    background-color:rgb(37, 39, 54);
+    box-sizing: border-box;
+    height: 400px;
+}
+.card.f-card{
+    background-color:rgb(48, 51, 70);
+}
+
+.header {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+}
+
+.city {
+    font-size: 18px;
+    font-size: 1.2857142857em;
+    font-weight: 400;
+}
+.temp {
+    font-size: 90px;
+    font-size: 6.4285714286rem;
+    margin-right: 30px;
+}
+
+
+
+
+
+
+/* S T A R T                F O O T E R           S E C T I O N */
+footer {
+    background-color:rgb(48, 51, 70);;
+    
+}
+
+/*E N D                   F O O T E R           S E C T I O N */
